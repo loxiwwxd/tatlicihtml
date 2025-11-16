@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>tatIstanbul</title>
+  <style>
+    html, body {
+      height: 100%;              
+      margin: 0;
+    }
+
+    body {
+      display: flex;              
+      flex-direction: column;
+      background-color: #f8cfae;
+      
+    }
+
+    header {
+      background-color: #b47b4a;
+     
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    header nav a {
+      margin-left: 18px;
+      
+     
+      font-size: 16px;
+    }
+
+    main {
+      flex: 1;                    
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    main h1 {
+      margin: 10px 0 15px 0;
+      font-size: 32px;
+    }
+
+    main p {
+      margin: 0 0 40px 0;
+      font-size: 20px;
+    }
+
+    .fotograflar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 220px;
+      margin-bottom: 60px;
+    }
+
+    .fotograflar img {
+      width: 220px;
+      border-radius: 6px;
+    }
+
+    .menu-button {
+      background-color: #f29a57;
+      
+      padding: 12px 40px;
+      border-radius: 6px;  
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #b47b4a;
+      
+      padding: 16px 20px;
+      font-size: 18px;
+    }
+
+    footer .text {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">tatIstanbul</div>
+    <nav>
+      <a href="menu.html">Menü</a>
+      <a href="#">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Günün en çok satan tatlıları</h1>
+    <p>Günlük taze baklava, sütlü tatlılar ve özel pastalar.</p>
+
+    <div class="fotograflar">
+      <img src="istockphoto-161654499-612x612.jpg" alt="Baklava">
+      <img src="frambuazli-trilece.jpg" alt="Tatlı">
+    </div>
+
+    <button class="menu-button">Menü</button>
+  </main>
+
+  <footer>
+    <div class="text">Telefon Numarası: +90 551 012 44 **</div>
+    <div class="text">E Posta: tatlistanbul@example.com</div>
+  </footer>
+
+</body>
+</html>
